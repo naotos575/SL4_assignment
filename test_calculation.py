@@ -1,6 +1,4 @@
 import unittest
-import sys
-sys.path.append("../Calculation")
 from calculation import Calculation
 
 cal = Calculation()
