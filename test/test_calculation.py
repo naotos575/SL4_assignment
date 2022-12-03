@@ -12,6 +12,7 @@ class Test(unittest.TestCase):
       predict=8
       self.assertEqual(cal.add(val1, val2), predict)
 
+  """
   def test_multiply(self):
       val1=3
       val2=100
@@ -21,6 +22,7 @@ class Test(unittest.TestCase):
   def input_str(self):
       with self.assertRaises(TypeError):
         cal.add(1, "vaijosf")
+  """
 
 if __name__ == "__main__":
     unittest.main()
